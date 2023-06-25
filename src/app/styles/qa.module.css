@@ -1,0 +1,132 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 1900px;
+  position: relative;
+  top: 108px;
+  min-height: 862px;
+  margin-left: 32px;
+  margin-bottom: 134px;
+}
+
+.qaHeader {
+  box-sizing: border-box;
+  display: flex;
+  width: 1856px;
+  height: 80px; 
+  padding: 24px;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #1B1F23;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+
+.qaList {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+.qaItem {
+  box-sizing: border-box;
+  display: flex;
+  width: 1856px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #1B1F23;
+}
+
+.question1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1744px;
+  height: 32px;
+}
+
+.question {
+  height: 32px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #1B1F23;
+}
+
+.icon {
+  border: none;
+  width: 32px;
+  height: 32px;
+  background: url(../../../public/arrow.svg);
+}
+
+.iconTran {
+  border: none;
+  width: 32px;
+  height: 32px;
+  background: url(../../../public/arrow.svg);
+  transform: rotate(180deg);
+}
+
+.icon:active {
+  transform: rotate(180deg);
+}
+
+.answer {
+  margin: -40px 32px 0px 0px;
+  box-sizing: border-box;
+  display: flex;
+  width: 1856px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+  border-radius: 8px;
+  background: #FFF;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+}
+
+.textAnswer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  color: #1B1F23;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+  margin-right: 54px;
+}
+

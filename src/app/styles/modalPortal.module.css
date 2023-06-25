@@ -1,0 +1,107 @@
+.wrap {
+  background: rgba(0, 0, 0, 0.50);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  box-sizing: border-box;
+  position: relative;
+  width: 344px;
+  height: 168px;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+
+.attention {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.info {
+  display: flex;
+  width: 296px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  color: #1B1F23;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.close {
+  border: none;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background: url(../../../public/Vector.svg) no-repeat center;
+}
+
+.text {
+  color: #1B1F23;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 20px;
+}
+
+.answer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.buttonYes {
+  border: none;
+  display: flex;
+  width: 51px;
+  height: 40px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  background: url(../../../public/buttonYes1=Default.svg) no-repeat center;
+}
+
+.buttonYes:hover {
+  background: url(../../../public/buttonYes1=Hover.svg) no-repeat center;
+}
+
+.buttonNo {
+  border: none;
+  display: flex;
+  width: 57px;
+  height: 40px;
+  padding: 15px 16px;
+  align-items: center;
+  gap: 8px;
+  background: url(../../../public/buttonNo1=Default.svg) no-repeat center;
+}
+
+.buttonNo {
+  background: url(../../../public/buttonNo1=Hover.svg) no-repeat center;
+}
+
+.buttonDelete {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background: url(../../../public/Vector.svg) center no-repeat;
+}

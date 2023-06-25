@@ -1,0 +1,235 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 23px;
+  width: 1900px;
+  position: relative;
+  top: 108px;
+  min-height: 996px;
+  margin-bottom: 134px;
+}
+
+
+.filter {
+  width: 408px;
+  height: 862px;
+  left: 32px;
+  top: 108px;
+  padding: 24px;
+  position: sticky;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.listFilm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 1424px;
+  left: 463px;
+}
+
+.filmItem {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  width: 1424px;
+  height: 168px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.filmPoster {
+  width: 100px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+
+.filmInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1252px;
+  height: 120px;
+}
+
+.filmInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 1160px;
+  height: 48px;
+}
+
+.filmName {
+  height: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1B1F23;
+}
+
+.filmGenre {
+  width: 62px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1B1F23;
+}
+
+.selectTicket {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 68px;
+  height: 20px;
+}
+
+.lessTicket {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(../../../public/Property\ 1=Active.svg) no-repeat center;
+  border-radius: 4px;
+}
+
+.lessTicket:disabled {
+  background: url(../../../public/Property\ 1=Disabled.svg) no-repeat center;
+}
+
+.lessTicket:hover {
+  background: url(../../../public/Property\ 1=Hover.svg) no-repeat center;
+}
+
+.countTicket {
+  width: 12px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1B1F23;
+}
+
+.moreTicket {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #FF5500 url(../../../public/Property\ 2=Active.svg) no-repeat center;
+}
+
+.moreTicket:disabled {
+  background: url(../../../public/Property\ 2=Disabled.svg) no-repeat center;
+}
+
+.moreTicket:hover {
+  background: url(../../../public/Property\ 2=Hover.svg) no-repeat center;
+}
+
+.filterHeader {
+  width: 114px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #1B1F23;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 360px;
+  height: 224px;
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 360px;
+  height: 64px;
+
+}
+
+.filterLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #1B1F23;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.filterInput {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+  width: 360px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E1E3E6;
+  border-radius: 8px;
+}
+
+.filterInput::placeholder {
+  font-family: '__Inter_0ec1f4', '__Inter_Fallback_0ec1f4';
+  font-size: 14px;
+  line-height: 20px;
+  color: #999FA6;
+}
+
+
+.filterInput:active {
+  border: 1px solid #FF5500;
+}
+
+

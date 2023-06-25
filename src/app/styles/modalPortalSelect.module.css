@@ -1,0 +1,60 @@
+.wrap {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  box-shadow: 0px 10px 22px -4px rgba(27, 31, 35, 0.12);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 42px;
+  flex: 1 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  background: url("../../../public/arrow-square-down.svg") no-repeat right;
+}
+
+.textOpen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 42px;
+  flex: 1 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  background: url("../../../public/arrow-square-up.svg") no-repeat right;
+}
+
+.text:active {
+  color: #1B1F23;
+}
+
+.item {
+  display: flex;
+  height: 42px;
+  padding: 12px;
+  align-items: flex-start;
+  width: 360px;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  color: #1B1F23;
+  font-size: 14px;
+  font-family: SF Pro Text;
+  line-height: 20px;
+}
+
+.item:hover {
+  border: 1px solid #FF5500;
+}

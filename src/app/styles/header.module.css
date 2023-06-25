@@ -1,0 +1,65 @@
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  margin-bottom: 24px;
+  gap: 1400px;
+  position: fixed;  
+  top: 0;  
+  z-index: 100;  
+  width: 1920px;
+  height: 84px;
+  left: 0px;
+  background: #333333;
+  box-shadow: 0px 4px 4px rgba(32, 30, 30, 0.25);
+}
+
+.serviceName {
+  width: 241px;
+  height: 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+}
+
+.orderCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: #FF5500;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.orderCountHide {
+  display: none;
+}
+
+.orderLink {
+  width: 32px;
+  height: 32px;
+  background: url(../../../public/basket.png);
+}

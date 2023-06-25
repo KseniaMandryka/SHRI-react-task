@@ -1,0 +1,26 @@
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 1400px;
+  width: 1920px;
+  height: 86px;
+  left: 0px;
+  top: 994px;
+  background: #333333;
+}
+
+
+.content {
+  height: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
