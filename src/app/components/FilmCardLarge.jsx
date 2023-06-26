@@ -13,6 +13,8 @@ export function FilmCardLarge ({ film }) {
         alt="Films poster"
         width={400}
         height={500}
+        priority={true}
+        style={{ width: '400px', height: '500px' }}
       />
       <div className={filmPage.filmInformationContainer}>
         <div className={filmPage.filmDescription}>

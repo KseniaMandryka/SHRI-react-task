@@ -20,6 +20,7 @@ export function FilmCard({ film }) {
         alt="Films poster1"
         width={100}
         height={120}
+        priority={true}
       />
       <div className={main.filmInfo}>
         <div className={main.filmInfoContainer}>

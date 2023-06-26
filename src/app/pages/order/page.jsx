@@ -22,7 +22,7 @@ export default function Order() {
 
   if(!data || error) {
     return <span>NotFound</span>
-  }
+  } 
 
   const films = data.filter(film => filmsId.includes(film.id))
 
@@ -33,7 +33,7 @@ export default function Order() {
 
         {films.map(film => {
           return (
-            <div className={countFilms[film.id] === 0 ? order.filmCardHide : order.filmCard}>
+            <div key={film.id} className={countFilms[film.id] === 0 ? order.filmCardHide : order.filmCard}>
               <Image 
                 src={film.posterUrl}
                 alt="Films poster"
@@ -57,7 +57,7 @@ export default function Order() {
           ) 
         })}
       </div>
-        <div class={order.ticketInfo}>
+        <div className={order.ticketInfo}>
           <div>
             Итого билетов:
           </div>

@@ -27,7 +27,7 @@ export default function FilmPage(params) {
         <FilmCardLarge film={film} />
         {feedbacks.map(feedback => {
           return (
-            <Feedback feedback={feedback} />
+            <Feedback key={feedback.id} feedback={feedback} />
           ) 
         })}
       </div>
