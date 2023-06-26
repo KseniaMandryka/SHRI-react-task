@@ -221,4 +221,8 @@
   border: 1px solid #FF5500;
 }
 
+.filterInput:focus {
+  outline: 1px solid #FF5500;
+}
+
 
