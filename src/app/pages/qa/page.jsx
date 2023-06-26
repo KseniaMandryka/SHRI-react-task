@@ -21,10 +21,10 @@ export default function Qa () {
     <>
       <Header />
       <div className={qa.content}>
-        <div className={qa.qaHeader}>
+        <div className={qa.header}>
           Вопросы-ответы
         </div>
-        <div className={qa.qaList}>
+        <div className={qa.list}>
           {questions.map((question, index) => {
             return (
               <Question key={index} question={question}>

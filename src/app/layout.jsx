@@ -5,7 +5,7 @@ import { StoreProvider } from "./redux/StoreProvider"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Выбор билетов',
+  title: 'Билетопоиск',
   description: 'Выберите фильмы на главной странице',
 }
 

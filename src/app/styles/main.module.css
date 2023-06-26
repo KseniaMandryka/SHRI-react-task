@@ -10,18 +10,6 @@
   margin-bottom: 134px;
 }
 
-
-.filter {
-  width: 408px;
-  height: 862px;
-  left: 32px;
-  top: 108px;
-  padding: 24px;
-  position: sticky;
-  background: #FFFFFF;
-  border-radius: 8px;
-}
-
 .listFilm {
   display: flex;
   flex-direction: column;
@@ -76,27 +64,23 @@
 
 .filmName {
   height: 20px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #1B1F23;
 }
 
 .filmGenre {
   width: 62px;
   height: 20px;
-  font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #1B1F23;
 }
 
 .selectTicket {
@@ -130,16 +114,14 @@
 }
 
 .countTicket {
-  width: 12px;
+  width: 18px;
   height: 20px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #1B1F23;
 }
 
 .moreTicket {
@@ -162,10 +144,19 @@
   background: url(../../../public/Property\ 2=Hover.svg) no-repeat center;
 }
 
+.filter {
+  width: 408px;
+  height: 862px;
+  left: 32px;
+  top: 108px;
+  padding: 24px;
+  position: sticky;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
 .filterHeader {
-  width: 114px;
   height: 20px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -173,7 +164,6 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  color: #1B1F23;
 }
 
 .filters {
@@ -201,7 +191,6 @@
   align-items: center;
   gap: 8px;
   align-self: stretch;
-  color: #1B1F23;
   font-size: 14px;
   line-height: 20px;
 }

@@ -48,29 +48,23 @@
 .user {
   width: 62px;
   height: 32px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  color: #1B1F23;
 }
 
 .grade {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #1B1F23;
 }
 
 
 .feedbackText {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #1B1F23;
 }

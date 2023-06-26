@@ -21,7 +21,6 @@
 .serviceName {
   width: 241px;
   height: 36px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -46,7 +45,6 @@
   height: 28px;
   background: #FF5500;
   border-radius: 8px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;

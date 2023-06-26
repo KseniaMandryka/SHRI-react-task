@@ -43,7 +43,6 @@
 .header {
   color: #1B1F23;
   font-size: 20px;
-  font-family: Roboto;
   font-weight: 600;
   line-height: 20px;
 }
@@ -59,7 +58,6 @@
 .text {
   color: #1B1F23;
   font-size: 16px;
-  font-family: Roboto;
   line-height: 20px;
 }
 
