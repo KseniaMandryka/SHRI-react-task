@@ -47,6 +47,7 @@ export function Select({ options, onClick, placeHolder}) {
           <ul className={modal.content}>
           {options.map(option => (
             <Option
+            key={option.id}
             option={option}
             onClick={handleOptionsClick}
             onChange={onClick}
